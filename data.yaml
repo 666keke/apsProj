@@ -1,0 +1,24 @@
+# Hybrid PubLayNet Document Layout Analysis Dataset
+# Train: Kaggle (full resolution)
+# Val: HuggingFace jordanparker6/publaynet
+# Generated for YOLOv8 training
+
+path: /Users/jihaoran/Downloads/aps proj/datasets/hybrid_publaynet_yolo  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: val/images  # val images (relative to 'path')
+
+# Classes (5 document layout categories)
+names:
+  0: text
+  1: title
+  2: table
+  3: list
+  4: figure
+
+# Number of classes
+nc: 5
+
+# Dataset info
+train_source: Kaggle (devashishprasad/documnet-layout-recognition-dataset-publaynet-t0)
+val_source: HuggingFace (jordanparker6/publaynet)
+categories: [text, title, table, list, figure]
